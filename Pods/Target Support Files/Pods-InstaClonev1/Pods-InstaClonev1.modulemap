@@ -1,0 +1,6 @@
+framework module Pods_InstaClonev1 {
+  umbrella header "Pods-InstaClonev1-umbrella.h"
+
+  export *
+  module * { export * }
+}
