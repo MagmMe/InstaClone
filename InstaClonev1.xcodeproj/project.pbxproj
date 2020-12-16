@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5244523F254AFDB6006E6B41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5244523E254AFDB6006E6B41 /* GoogleService-Info.plist */; };
+		5247254525547395001CBA7F /* uploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247254425547395001CBA7F /* uploadViewController.swift */; };
+		5247254A255473BB001CBA7F /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52472549255473BB001CBA7F /* settingsViewController.swift */; };
+		52472552255473E1001CBA7F /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52472551255473E1001CBA7F /* feedViewController.swift */; };
 		52969EA525485C4D00188089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52969EA425485C4D00188089 /* AppDelegate.swift */; };
 		52969EA725485C4D00188089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52969EA625485C4D00188089 /* SceneDelegate.swift */; };
 		52969EA925485C4D00188089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52969EA825485C4D00188089 /* ViewController.swift */; };
@@ -45,6 +48,9 @@
 		36043F56F52E9F5B108FEFFA /* Pods-InstaClonev1-InstaClonev1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaClonev1-InstaClonev1UITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaClonev1-InstaClonev1UITests/Pods-InstaClonev1-InstaClonev1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3595A24DD0FC420F3DA131 /* Pods-InstaClonev1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaClonev1.debug.xcconfig"; path = "Target Support Files/Pods-InstaClonev1/Pods-InstaClonev1.debug.xcconfig"; sourceTree = "<group>"; };
 		5244523E254AFDB6006E6B41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5247254425547395001CBA7F /* uploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadViewController.swift; sourceTree = "<group>"; };
+		52472549255473BB001CBA7F /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		52472551255473E1001CBA7F /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
 		52969EA125485C4D00188089 /* InstaClonev1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClonev1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52969EA425485C4D00188089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52969EA625485C4D00188089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				52969EAF25485C4F00188089 /* LaunchScreen.storyboard */,
 				52969EB225485C4F00188089 /* Info.plist */,
 				5244523E254AFDB6006E6B41 /* GoogleService-Info.plist */,
+				5247254425547395001CBA7F /* uploadViewController.swift */,
+				52472549255473BB001CBA7F /* settingsViewController.swift */,
+				52472551255473E1001CBA7F /* feedViewController.swift */,
 			);
 			path = InstaClonev1;
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				BBDA8D60B5D00037CA98D3F2 /* Pods-InstaClonev1Tests.debug.xcconfig */,
 				2223C3A1941AA1749D90E632 /* Pods-InstaClonev1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,9 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52472552255473E1001CBA7F /* feedViewController.swift in Sources */,
 				52969EA925485C4D00188089 /* ViewController.swift in Sources */,
 				52969EA525485C4D00188089 /* AppDelegate.swift in Sources */,
+				5247254525547395001CBA7F /* uploadViewController.swift in Sources */,
 				52969EA725485C4D00188089 /* SceneDelegate.swift in Sources */,
+				5247254A255473BB001CBA7F /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
